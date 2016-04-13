@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 18pt;
+    font-size: 14pt;
 }
 
 h1 {
@@ -32,20 +32,13 @@ h6 {
     font-size: 1rem;
 }
 
-main {
-    height: 100%;
-    width: 60%;
-    overflow: hidden;
-    position: absolute;
-}
-
 .content {
-	padding: 0 50pt;
+    margin: auto;
+	padding: 0 25pt;
 }
 
 body { 
 	color: #333;
-	font-size: 15pt;
 }
 
 main h1, main h2, main h3, main h4, main h5, main h6 {
@@ -54,7 +47,6 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
 
 section.chapter {
 	border-top: 1px solid #999;
-    position: absolute;
 	padding: 20pt 0;
     background: #FFF;
 }
@@ -68,33 +60,9 @@ a {
  	list-style: none;
  }
 
- /* Solution */
-
- .chapter p:first-of-type::first-line {
- 	font-size: 28pt;
- }
-
-.chapter p:first-of-type::first-letter {
-    font-size: 36pt;
- 	font-family: cursive;
- }
-
-::selection {
- 	background: #999;
- 	color: #FFF;
-} 
-
-::-moz-selection {
- 	background: #44609D;
- 	color: #FFF;
+ nav li { 
+    width: 300px;
  }
  
-.chapter {
-  transition: opacity 1.5s;
-  top: 0;
-  opacity: 0;
-}
-
-.chapter.active {
-    opacity: 1.0;
-}
+ /* Solution */
+ 
